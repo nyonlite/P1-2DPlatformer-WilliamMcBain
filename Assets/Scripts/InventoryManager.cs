@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class InventoryManager : MonoBehaviour
 {
     [Header("Settings")]
-    [SerializeField] private int _maxCapacity = 10;
+    [SerializeField] private int maxCapacity = 10;
 
     [Header("Events")]
     [SerializeField] private UnityEvent onInventoryChanged;
@@ -14,7 +14,7 @@ public class InventoryManager : MonoBehaviour
     private List<ItemData> heldItems;
 
     public int Count => heldItems.Count;
-    public bool IsFull => heldItems.Count >= _maxCapacity;
+    public bool IsFull => heldItems.Count >= maxCapacity;
     public List<ItemData> _heldItems => heldItems;
 
     private void Awake()
@@ -40,6 +40,7 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.Log($"Picked up: {type}");
         }
+        
         return true;
     }
 
@@ -89,6 +90,7 @@ public class InventoryManager : MonoBehaviour
 
     [ContextMenu("Test: Use First Item")]
     public void TestUseFirst() => UseFirstItem();
+
 
 
     [ContextMenu("Test: View Inventory")]

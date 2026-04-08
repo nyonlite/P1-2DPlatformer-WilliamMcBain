@@ -5,6 +5,14 @@ using UnityEngine.Events;
 public class ItemPickup : MonoBehaviour
 {
     [SerializeField] private ItemData type;
+    [SerializeField] private GameManager manager;
+    
+   
+    void OnStart()
+    {
+       
+    } 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -15,8 +23,14 @@ public class ItemPickup : MonoBehaviour
                 bool pickedUp = inventory.PickUp(type);
                 if (pickedUp)
                 {
-                
-                    Destroy(gameObject);
+                    if (type.Type() == ItemType.Coin)
+                    {
+                        Debug.Log(type.Type());
+                        manager.AddGold(1);
+                    }
+                    
+                        Destroy(gameObject);
+                    
                 }
             }
         }

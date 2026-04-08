@@ -218,6 +218,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1434927683750483186, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2478120180239210928, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
       propertyPath: m_Name
       value: KiwiCoin (3)
@@ -573,7 +577,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuestUI
   questText: {fileID: 48762361}
   prefix: 'Kwi coins:'
-  manager: {fileID: 1537455055}
 --- !u!1 &62619353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1091,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1434927683750483186, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2478120180239210928, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
       propertyPath: m_Name
       value: KiwiCoin (4)
@@ -1447,6 +1454,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1434927683750483186, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2478120180239210928, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
       propertyPath: m_Name
       value: KiwiCoin (2)
@@ -2591,7 +2602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e628e5fad7847948a495ea6c4a1f656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  _maxCapacity: 5
+  maxCapacity: 10
   onInventoryChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3184,6 +3195,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1434927683750483186, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2478120180239210928, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
       propertyPath: m_Name
       value: KiwiCoin (1)
@@ -3245,6 +3260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MelonBoots
       objectReference: {fileID: 0}
+    - target: {fileID: 5274470083956736513, guid: f841ad2f23c209048a7775c5714f7556, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 8042943456102029535, guid: f841ad2f23c209048a7775c5714f7556, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.93
@@ -3298,6 +3317,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1434927683750483186, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2478120180239210928, guid: 3367f05ade46c974c8cafe88c727ea94, type: 3}
       propertyPath: m_Name
       value: KiwiCoin
@@ -3355,6 +3378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 136277401178449891, guid: 85e84873abacace4b9a3fd70a0c363c2, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1537455055}
     - target: {fileID: 2115773726113819286, guid: 85e84873abacace4b9a3fd70a0c363c2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.636

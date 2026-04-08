@@ -4,8 +4,8 @@ using UnityEngine;
 public class QuestUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text questText;
-    [SerializeField] private string prefix = "kiwi coins:";
-    [SerializeField] private GameManager manager;
+    [SerializeField] private string prefix = "Kiwi coins:";
+    //[SerializeField] private GameManager manager;
 
     private void Awake()
     {
